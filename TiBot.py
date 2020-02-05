@@ -10,7 +10,7 @@ from ShadowHunters import prepSH
 from ShadowHunters import diceRoll
 from ShadowHunters import clearPartie
 
-TOKEN = 'NjcyNzUzNDg3ODY3Njc0NjQ2.XjQErw.C5X6PERbqh1By1UR-vsRF61-rVw'
+TOKEN = ''
 
 bot = commands.Bot(command_prefix = '!')
 
