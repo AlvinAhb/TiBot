@@ -145,7 +145,6 @@ async def midi(ctx):
 async def shadowhunters(ctx):
     try:
         voice = get(ctx.message.guild.channels, name = "Shadow Hunters")
-#        voice = get(bot.voice_clients, guild=ctx.guild)
         members = voice.members
         players = []
         for member in members:
